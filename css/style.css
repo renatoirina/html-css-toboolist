@@ -5,8 +5,22 @@ body {
 }
 */
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+.top-bar {
+    background-color: #edf2f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+.top-bar .logo {
+    margin: auto;
 }
