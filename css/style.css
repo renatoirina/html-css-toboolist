@@ -24,3 +24,41 @@ body {
 .top-bar .logo {
     margin: auto;
 }
+
+/* MAIN < BARRA DI AGGIUNTA TASKS */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #edf2f7;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.input-container input {
+    flex-grow: 1;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 30%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.input-container .add-task {
+    background-color: #09a9ed;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
