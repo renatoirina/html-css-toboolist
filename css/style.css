@@ -1,5 +1,5 @@
 /* PROVA COLLEGAMENTO CSS TO HTML */
-/* 
+/*
 body {
     background-color: aqua;
 }
@@ -25,17 +25,16 @@ body {
     margin: auto;
 }
 
-/* MAIN < BARRA DI AGGIUNTA TASKS */
+/* MAIN < ADD TASKS CONTAINER */
 .input-container {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    margin-top: 20px;
     background-color: #edf2f7;
     box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
     border-radius: 5px;
     width: 60%;
-    margin: 40px auto;
+    margin: 40px auto 5px;
 }
 
 .input-container input {
@@ -62,3 +61,39 @@ body {
     cursor: pointer;
 }
 
+/* MAIN < TASKS CONTAINER */
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #edf2f7;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+.tasks-container .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none
+}
+
+.tasks-container .task .task-title {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.tasks-container .task .task-tag {
+    background-color: #09a9ed;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
